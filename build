@@ -1,1 +1,1 @@
-docker build -t kibana .
+docker build --rm -t $DOCKER_USER/kibana .
